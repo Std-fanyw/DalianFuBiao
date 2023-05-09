@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="16008000">
+	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">运维调试菜单</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="控件" Type="Folder">
+		<Item Name="禁用控件.ctl" Type="VI" URL="../控件/禁用控件.ctl"/>
+		<Item Name="控件外观.ctl" Type="VI" URL="../控件/控件外观.ctl"/>
+		<Item Name="模块启用.ctl" Type="VI" URL="../控件/模块启用.ctl"/>
+	</Item>
+	<Item Name="模块启用" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">氨氮模块启用</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">模块启用</Property>
+		<Item Name="模块启用.vi" Type="Property VI" URL="../属性/模块启用.vi"/>
+	</Item>
+	<Item Name="模块名称" Type="Property Folder">
+		<Property Name="NI.LibItem.Prop.Identifier" Type="Str">模块名称</Property>
+		<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">模块名称</Property>
+		<Item Name="模块名称写入.vi" Type="Property VI" URL="../属性/模块名称写入.vi"/>
+	</Item>
+	<Item Name="初始化 1.vi" Type="Ability VI" URL="../初始化 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="数据 1.ctl" Type="Ability VI" URL="../数据 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="外观 1.vi" Type="Ability VI" URL="../外观 1.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="状态 1.ctl" Type="Ability VI" URL="../状态 1.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+</XControl>
